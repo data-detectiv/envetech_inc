@@ -1,35 +1,30 @@
-/* body{
-  font-style: inherit;
- font-family: 'Montserrat', sans-serif;
-} */
+/* contact & join team */
 #board:hover{
   color:blue;
 }
+
+/* join team */
 .board{
   color:blue;
 
 }
 
+/* introduction */
 .main{
-  /* position:relative; */
   background: linear-gradient(black,rgba(0, 0, 0, 0.5)),
     url(images/360_F_391858327_RnUUuKCaV4eGRx6Ct9dWZXxypiXjFxvW.jpg);
-  /* background:url(images/360_F_391858327_RnUUuKCaV4eGRx6Ct9dWZXxypiXjFxvW.jpg); */
   background-size:cover;
   min-height:100vh;
   background-position:center;
-  /* padding:200px 0 220px; */
 }
-
 .pad{
   padding:150px 0px 0px 0px;
 }
 
+/* approach */
 .ash{
   background:lightgrey;
-  /* padding:50px; */
 }
-
 .cent{
   padding:100px;
   margin:80px 0px 0px 0px;
