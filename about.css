@@ -1,0 +1,38 @@
+.main{
+  background: linear-gradient(black,rgba(0, 0, 0,0.8)),
+    url(images/smiles.jpg);
+  background-size:cover;
+  min-height:100vh;
+  background-position:center;
+}
+
+.pad{
+  padding:200px 0px 0px 0px;
+  background:linear-gradient(green,rgb(3, 130, 66));
+  /* border: 2px solid ; */
+}
+@media only screen and (max-width: 600px) {
+  .pad {
+    background:none;
+  }
+  .types{
+    width: 470px;
+  }
+  .sponsor{
+    width:90px;
+    height:80px;
+  }
+}
+
+/* approach */
+.ash{
+  background:lightgrey;
+}
+.cent{
+  padding:100px;
+  margin:80px 0px 0px 0px;
+}
+
+.change{
+  color:white;
+}
