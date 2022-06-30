@@ -1,0 +1,61 @@
+#header{
+  position:absolute;
+  width:100%;
+  z-index:10;
+}
+
+.box{
+  
+    width: 500px;
+    height:400px;
+    -webkit-filter: drop-shadow(5px 5px 5px #666666);
+    filter: drop-shadow(5px 5px 5px #666666);
+  
+}
+
+.box-s{
+  padding:50px;
+  border-radius:10px;
+  box-sizing:border-box;
+  box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+}
+
+.align{
+ padding:0px 50px 0px 0px;
+}
+/* contact & join team */
+#board:hover{
+  color:blue;
+}
+
+/* join team */
+.board{
+  color:blue;
+
+}
+
+/* introduction */
+.main{
+  background: linear-gradient(black,rgba(0, 0, 0, 0.5)),
+    url(images/our-strategy-page-header.jpg);
+  background-size:cover;
+  min-height:50vh;
+  background-position:center;
+}
+.pad{
+  padding:150px 0px 0px 0px;
+}
+
+/* approach */
+.ash{
+  background:lightgrey;
+}
+.cent{
+  padding:100px;
+  margin:80px 0px 0px 0px;
+}
+
+.btnpad{
+  margin-left:70px;
+}
+

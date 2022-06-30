@@ -1,3 +1,9 @@
+#header{
+  position:absolute;
+  width:100%;
+  z-index:10;
+}
+
 /* contact & join team */
 #board:hover{
   color:blue;
@@ -6,6 +12,14 @@
 /* join team */
 .board{
   color:blue;
+
+}
+
+.box{
+  width:100%; 
+  height:400px;
+  -webkit-filter: drop-shadow(5px 5px 5px #666666);
+  filter: drop-shadow(5px 5px 5px #666666);
 
 }
 
@@ -38,4 +52,8 @@
   width:100%;
   height:100%;
   border-radius:10px;
+}
+
+.forms{
+  padding:100px 0px 0px 0px;
 }
