@@ -24,6 +24,32 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .pad {
+    background:none;
+  }
+  .types{
+    width: 470px;
+  }
+  .sponsor{
+    width:90px;
+    height:80px;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .pad {
+    background:none;
+  }
+  .types{
+    width: 470px;
+  }
+  .sponsor{
+    width:90px;
+    height:80px;
+  }
+}
 /* approach */
 .ash{
   background:lightgrey;

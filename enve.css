@@ -4,6 +4,11 @@
   z-index:10;
 }
 
+.backstyle{
+  /* border: 2px solid black; */
+  background:rgb(49, 71, 235);
+}
+
 /* contact & join team */
 #board:hover{
   color:blue;
@@ -11,7 +16,8 @@
 
 /* join team */
 .board{
-  color:blue;
+  /* color:blue; */
+  padding-top: 50px;
 
 }
 
@@ -57,3 +63,36 @@
 .forms{
   padding:100px 0px 0px 0px;
 }
+
+.form-label{
+  color:white;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  .message{
+     width:90px;
+    height:80px;
+    display:none;
+  }
+#map{
+  display:none;
+}
+}
+
+
+@media only screen and (max-width: 800px) {
+ 
+  #map{
+    width:90px;
+    height:80px;
+  }
+} 
+
+@media only screen and (max-width: 1000px) {
+ 
+  #map{
+    width:90px;
+    height:80px;
+  }
+} 

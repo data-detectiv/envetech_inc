@@ -7,7 +7,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="enve.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <script src="enve.js" ></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
   <title>Envetech Inc</title>
 </head>
 <body>
@@ -65,10 +67,10 @@
   <section class="main bg-dark text-light pt-5 p-lg-0 pb-4  text-center text-sm-start" id="home">
     <div class="container">
       <div class="d-sm-flex align-items-center justify-content-between pad ">
-        <div>
-          <h1>Produce a <span class="text-warning">sustainable enviroment</span> possible <br>in every part of the planet</h1>
+        <div >
+          <h1 class="animate">Produce a <span class="text-warning">sustainable enviroment</span> possible <br>in every part of the planet</h1>
           <p class="lead">We try to solve environmental problems with the use of modern technology by developing<br> products that are eco-friendly to achieve a sustainable environment.</p>
-          <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Learn more </button>
+          <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Learn more  <i class="fas fa-book-open"></i></i> </button>
         </div>
       </div>
     </div>
@@ -163,7 +165,19 @@
     <div class="carousel-item">
       <div class="row d-flex justify-content-center">
         <div class="col-lg-8">
-          <h1>MEET THE TEAM</h1>
+          <img class="rounded-circle shadow-1-strong mb-4 bg-white" src="images/envetechlogo.png" width="150px" height="140px" alt="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <h5 class="mb-3">Envetech Inc</h5>
+              <p>Ensuring sustainability of the environment.</p>
+              <p class="text-white">
+                <a href="https://twitter.com/GPelpuo" target="_blank"> <i class="bi bi-twitter text-dark"></i>
+                  <a href="https://instagram.com/bless_pelpuo" target="_blank"><i class="bi bi-instagram text-dark"></i></a>
+                   <a href="https://www.facebook.com/bless.pelp.9" target="_blank"><i class="bi bi-facebook text-dark"></i></a>
+                  <a href="https://linkedin.com/in/godbless-pelpuo-2bb3a819b" target="_blank"><i class="bi bi-linkedin text-dark"></i></a>
+                  </a> 
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -188,11 +202,12 @@
       <div class="row ailgn-items-center justify-content-between">
         <div class="col-md text-light p-5 pb-0">
           <h1 class="text-dark">Interested in working with us?</h1>
-          <img src="images/message.png" width="500px" height="300px" alt="">
+          <img src="images/message.png" class="message" width="500px" height="300px" alt="">
         </div>
-        <div class="col-md p-5  ">
+        <div class="col-md p-3 backstyle bg-primary ">
           <form action="mailto:envetechinc@gmail.com" class="forms">
             <div class="mb-3">
+              <p class="text-center text-light">Fill this form to join the team</p>
               <label for="exampleInputName" class="form-label">Full name</label>
               <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
               <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
@@ -201,11 +216,15 @@
               <label for="exampleInputEmail1" class="form-label">Email</label>
               <input type="email" class="form-control" id="exampleInputEmail1">
             </div>
+            <div class="mb-3">
+              <label for="exampleInputPhone1" class="form-label">Phone</label>
+              <input type="phone" class="form-control" id="exampleInputPhone1">
+            </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button  class="btn btn-success btn-block ">Submit <i class="fa fa-paper-plane"></i></button>
           </form>
             <!-- <button class="btn btn-primary my-5 mx-5 "><a href="https://forms.gle/2TZqcEa1tmhM1SMu8" target="_blank" class="nav-link text-light p-0  ">Join our team</a></button> -->
           </div>
@@ -222,16 +241,16 @@
           <h2 class="mb-4 text-center" id="contact-us">Contact Info</h2>
           <ul class="list-group list-group-flush ">
               <li class="list-group-item">
-                  <span class="fw-bold">Location:</span> Kumasi, Ghana
+                  <span class="bi bi-geo-alt-fill"></span> Kumasi, Ghana
               </li>
                   <li class="list-group-item">
-                    <span class="fw-bold">Phone:</span> +233 55 048 9364
+                    <span class="bi bi-phone"></span> +233 55 048 9364
                   </li>
                  <li class="list-group-item">
-                    <span class="fw-bold">Other Phone:</span> +233 54 810 0813
+                    <span class="bi bi-phone"></span> +233 54 810 0813
                   </li>
                     <li class="list-group-item">
-                      <span class="fw-bold">Email:</span>envetechinc@gmail.com
+                      <span class="bi bi-envelope"></span> envetechinc@gmail.com
                     </li>
               </ul>
         </div>
@@ -266,5 +285,10 @@
       zoom:18,
     })
   </script> 
+  <script>
+    $(document).ready(function(){
+      $(".animate").addClass("animated bounce")
+    })
+  </script>
 </body>
 </html>
